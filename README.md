@@ -8,8 +8,9 @@ How does it judge a reservation ?
 The validation of a reservation should have 2 phases (restaurant, user)  & (restaurant, restaurant)
 The first phase is concerned with the location of a user and the location of the restaurant where the reservation takes place
 The second phase is concerened with the location of
-  - The restaurant of the last reservation
-  - The restaurant of the current reservation
+   The restaurant of the last reservation
+   The restaurant of the current reservation
+  
 For phase 1, this is how it works : 
   if the expected time is <= 15 minutes   -> safe	
   if distance >= 800 kilometers	and if actual time / expected time >= 0.7 	-> safe
